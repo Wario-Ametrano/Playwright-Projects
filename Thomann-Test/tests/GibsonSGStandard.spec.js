@@ -78,7 +78,7 @@ test('Gibson SG Standard Test.', async ({ page }) => {
   await expect(page.getByRole('button', { name: 'Alla cassa' })).toBeVisible();// verifica che il bottone "Alla cassa" sia visibile
   await page.getByRole('button', { name: 'Alla cassa' }).click({ force: true });// clicca sul bottone "Alla cassa" forzatamente
   await expect(page.getByTestId('login-submit')).toBeVisible();
-  await page.waitForTimeout(2000); // 2 secondi
+  await page.waitForTimeout(3000); // 3 secondi
 
   await page.close();
 });
