@@ -72,7 +72,6 @@ test('Gibson SG Standard Test.', async ({ page }) => {
   if (await acceptCookies.isVisible()) {
     await acceptCookies.click();
   };
-
   await page.waitForLoadState('networkidle'); // aspetta che la pagina sia completamente caricata
 
   await expect(page.getByRole('button', { name: 'Alla cassa' })).toBeVisible();// verifica che il bottone "Alla cassa" sia visibile
