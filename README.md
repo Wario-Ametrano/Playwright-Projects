@@ -1,8 +1,8 @@
- # Playwright Automated Test – Thomann E-Commerce 🎭
+ # Playwright Automated Test 🎭
 
 ## Project Overview 📌
 
-This project showcases an automated end-to-end test built using Playwright for a musical instrument purchasing platform.
+This project showcases an automated end-to-end test built using Playwright for web platforms.
 
 The goal of this project is to demonstrate:
 
@@ -23,7 +23,7 @@ You can ![watch]([https://github.com/Wario-Ametrano/Playwright-Projects/blob/mai
 The automated test simulates a complete purchasing flow:
 
 - Navigating the platform
-- Searching/selecting a musical instrument
+- Searching/selecting items
 - Adding the product to the cart
 - Proceeding through the checkout process
 - Validating key UI elements and workflow steps
