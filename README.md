@@ -15,7 +15,7 @@ This repository includes the test implementation and a video demonstration of th
 
 ## Test Execution Video 🎥
 
-You can ![watch]([https://github.com/Wario-Ametrano/Playwright-Projects/blob/main/Thomann%20-%20Platwright.mp4](https://www.linkedin.com/posts/mario-ametrano-a75a38229_in-this-video-i-run-a-test-created-by-me-activity-7424804089877929984-2vjL/) "Thomann-Test")
+You can ![watch](https://github.com/user-attachments/assets/cda0e45a-4f19-4ee5-9fd9-4c9acbf43724)
  the full test execution:
 
  ## What the Test Covers 🧪
