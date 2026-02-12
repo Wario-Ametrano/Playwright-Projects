@@ -10,10 +10,25 @@ The goal of this project is to demonstrate:
 - End-to-end user journey validation
 - Test structure and best practices
 - Real execution with recorded test run
-  
-This repository includes the test implementation and a video demonstration of the execution.
+
+## Getting Started 🚀
+
+To run any project locally:
+- Clone the repo:
+```
+git clone https://github.com/Wario-Ametrano/Playwright-Projects.git
+```
+- Navigate to the project folder:
+```
+  cd Playwright-Projects/Thomann-test
+```
+- Run the Test in headed mode:
+```
+npx playwright test Thomann.spec.js --headed
+```
 
 ## Test Execution Video 🎥
+This repository includes the test implementation and a video demonstration of the execution.
 You can watch the full test execution:
 
 https://github.com/user-attachments/assets/cda0e45a-4f19-4ee5-9fd9-4c9acbf43724
