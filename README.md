@@ -14,9 +14,10 @@ The goal of this project is to demonstrate:
 This repository includes the test implementation and a video demonstration of the execution.
 
 ## Test Execution Video 🎥
+You can watch the full test execution:
 
-You can ![watch](https://github.com/user-attachments/assets/cda0e45a-4f19-4ee5-9fd9-4c9acbf43724)
- the full test execution:
+https://github.com/user-attachments/assets/cda0e45a-4f19-4ee5-9fd9-4c9acbf43724
+ 
 
  ## What the Test Covers 🧪
 
