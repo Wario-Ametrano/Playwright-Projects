@@ -20,7 +20,7 @@ git clone https://github.com/Wario-Ametrano/Playwright-Projects.git
 ```
 - Navigate to the project folder:
 ```
-cd Playwright-Projects/Thomann-test
+cd Playwright-Projects/Tests
 ```
 - Run the Test in headed mode:
 ```
