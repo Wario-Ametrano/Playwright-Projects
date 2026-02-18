@@ -61,6 +61,7 @@ test("Table-Test",async({page})=>{
     await page.waitForTimeout(2000); // 2 secondi
     await searchBox.press('Escape');// simula la pressione del tasto Esc
 })
+
 test("Locators-Test",async({page})=>{
     await page.goto("https://practice.expandtesting.com/locators");
 
@@ -85,4 +86,25 @@ test("Locators-Test",async({page})=>{
     await page.getByPlaceholder('Search the site').fill('Playwright Testing');// Inserisce "Playwright Testing" nella casella di ricerca
     await page.getByPlaceholder('Filter by tag').click();// Clicca sulla casella di filtro per mostrare le opzioni dei tag
     await page.getByPlaceholder('Filter by tag').fill('Testing');// Seleziona "Testing" dal menu a discesa dei tag
+})
+
+test("Multiple_Windows-Test",async({page})=>{
+    await page.goto("https://practice.expandtesting.com/windows");
+    await page.waitForLoadState('domcontentloaded');
+
+    await page.waitForTimeout(1000); // 1 secondi
+
+    await page.getByRole('link', { name: 'Click Here' }).click();// Clicca sul link "Click Here" per aprire una nuova finestra
+    const [newPage] = await Promise.all([page.waitForEvent('popup')]); // Aspetta l'evento di apertura di una nuova finestra
+
+    await newPage.waitForLoadState(); // Aspetta che la nuova pagina sia completamente caricata
+    await expect(newPage.getByText('Example of a new window')).toBeVisible();// Verifica che il testo "Example of a new window" sia visibile nella nuova finestra
+
+    await newPage.waitForTimeout(2000);//fai aspettare 2 secondi per vedere la nuova finestra prima di chiuderla
+
+    await newPage.close();// Chiude la nuova finestra
+    await page.bringToFront();// Porta la finestra originale in primo piano
+    
+    await page.close();// Chiude la finestra originale
+
 })
