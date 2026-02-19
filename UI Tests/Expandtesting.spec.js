@@ -72,11 +72,10 @@ test("Locators-Test",async({page})=>{
     await page.getByRole('textbox').nth(1).fill('Doe');// Inserisce "Doe" nella seconda casella di testo
     await page.locator('textarea[name="address"]').fill('123 Main St, Anytown, USA');// Inserisce l'indirizzo nella casella di testo dell'indirizzo
     await page.getByRole('link', { name: 'Send' }).click();// Clicca sul link "Send"
-
     await page.waitForTimeout(1000); // 1 secondi
-    await page.goto("https://practice.expandtesting.com/locators");
-
+    
     //Utilizza getByLabel per interagire col form di iscrizione alla newsletter
+    await page.goto("https://practice.expandtesting.com/locators");
     await page.getByLabel('Choose a country').click();// Clicca sul menu a discesa per mostrare le opzioni dei paesi
     await page.getByLabel('Choose a country').selectOption('Brazil');// Seleziona "Brazil" dal menu a discesa dei paesi
     await page.getByLabel('Email for newsletter').fill('john.doe@example.com');// Inserisce l'email nella casella di testo per la newsletter
@@ -104,7 +103,6 @@ test("Multiple_Windows-Test",async({page})=>{
 
     await newPage.close();// Chiude la nuova finestra
     await page.bringToFront();// Porta la finestra originale in primo piano
-    
-    await page.close();// Chiude la finestra originale
 
+    await page.close();// Chiude la finestra originale
 })
