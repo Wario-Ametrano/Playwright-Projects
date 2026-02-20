@@ -1,4 +1,4 @@
- # Playwright Automated Test 🎭
+ # Playwright Projects 🎭
 
 ## Project Overview 📌
 
