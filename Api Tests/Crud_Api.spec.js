@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 
-test('API POST Request', async ({request})=>{
+test('API_POST_Request', async ({request})=>{
     const response = await request.post('https://reqres.in/api/users', {
         ignoreHTTPSErrors: true ,// per ignorare gli errori SSL certificati non validi
         data:{
@@ -17,7 +17,7 @@ test('API POST Request', async ({request})=>{
 });
 
 
-test('API PUT Request', async ({request})=>{
+test('API_PUT_Request', async ({request})=>{
     const response = await request.put('https://reqres.in/api/users/2', {
     ignoreHTTPSErrors: true ,// per ignorare gli errori SSL certificati non validi
     data:{
@@ -33,7 +33,7 @@ test('API PUT Request', async ({request})=>{
 });
 
 
-test('API GET Request', async ({request})=>{
+test('API_GET_Request', async ({request})=>{
     const response = await request.get('https://reqres.in/api/users/2', {
         ignoreHTTPSErrors: true // per ignorare gli errori SSL certificati non validi
     });
@@ -44,7 +44,7 @@ test('API GET Request', async ({request})=>{
     console.log(await response.json()); // Stampa il corpo della risposta in formato JSON
 });
 
-test('API DELETE Request', async ({request})=>{
+test('API_DELETE_Request', async ({request})=>{
     const response = await request.delete('https://reqres.in/api/users/2', {
     ignoreHTTPSErrors: true // per ignorare gli errori SSL certificati non validi
   });
@@ -54,4 +54,7 @@ test('API DELETE Request', async ({request})=>{
 });
 
 
-//comando per eseguire il test:  npx playwright test --ui
+//comando per eseguire il test:  npx playwright test crud_api.spec.js/API_POST_Request 
+//comando per eseguire il test:  npx playwright test crud_api.spec.js/API_PUT_Request
+//comando per eseguire il test:  npx playwright test crud_api.spec.js/API_GET_Request
+//comando per eseguire il test:  npx playwright test crud_api.spec.js/API_DELETE_Request
