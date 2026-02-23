@@ -1,0 +1,169 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.692315838.1771843325",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1806403324.696144,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1080081757.1771843325",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1771929724,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-109033876-1",
+      "value": "1",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1771843384,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "i",
+      "value": "79d4881e-f488-49ff-ba70-b8aeb739fd9e|1771843325",
+      "domain": ".openx.net",
+      "path": "/",
+      "expires": 1803379325.114542,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "uid",
+      "value": "88397af9-116b-4a70-b238-8afd04349643",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1805539325.204011,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "cto_bundle",
+      "value": "rf2BnV9wZ0lEWG8lMkI5VllUanZqJTJGRHF3azVxNXlsMUJSdncwNXhaMWxwSkt1aDZMUEN3JTJGY1I0S292UjNhN2NsJTJGbkduU2o2c2o3Q21qeVJ3Z1IxNHUlMkJmYlBxTkxuUUt5UDVoMU1BMkVKbEJCQ2xFVUEzcWU2bXBmNWJLOXV0MDNXbEZISm5SM0c1TENhUW1qVndDS0J5bEQlMkJTOXclM0QlM0Q",
+      "domain": ".criteo.com",
+      "path": "/",
+      "expires": 1805539326.27178,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://demoqa.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "cto_bundle",
+      "value": "ierHCV9kTHQ2enZCMUVldDhjclA2dnBuUnBiY3NERjJmbFRRZ2tWZFRFSlpRJTJGVEtlbXNaN3lWcVVLNkRWenRvUm1DUHJ4cU1VNDVwdXFxdlp4NEpBRk15MXhKTmRsVUlaQ2Fia0ZaWkV3T2Y3OUdWWFVrRlU0N3VsUjMyUmdkekluYVRhNUpOWmJyJTJCR29wNkJ6NVBXS1NhZHdBJTNEJTNE",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1805539325,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__eoi",
+      "value": "ID=2bcda9245d8c661c:T=1771843325:RT=1771843325:S=AA-AfjZ8-266hNlbiwkF84ALJDu5",
+      "domain": ".demoqa.com",
+      "path": "/",
+      "expires": 1787395325,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6Ik1hcmlvdHRpZGUiLCJwYXNzd29yZCI6IlRlc3QxMjMhIiwiaWF0IjoxNzcxODQzMzI0fQ.ovY3diaLOojjUVhug9u0Zb05G8H2oxlN4z11_hTuO70",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "expires",
+      "value": "2026-03-02T10%3A42%3A04.189Z",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userID",
+      "value": "f4c52954-ef6e-4025-9578-ab8b4b74fa50",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "userName",
+      "value": "Mariottide",
+      "domain": "demoqa.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://demoqa.com",
+      "localStorage": [
+        {
+          "name": "_GESPSK-pubcid.org",
+          "value": "[\"pubcid.org\",null,1771843324778,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-crwdcntrl.net",
+          "value": "[\"crwdcntrl.net\",null,1771843324778,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-uidapi.com",
+          "value": "[\"uidapi.com\",null,1771843324778,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-euid.eu",
+          "value": "[\"euid.eu\",null,1771843324778,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "cto_bundle",
+          "value": "ierHCV9kTHQ2enZCMUVldDhjclA2dnBuUnBiY3NERjJmbFRRZ2tWZFRFSlpRJTJGVEtlbXNaN3lWcVVLNkRWenRvUm1DUHJ4cU1VNDVwdXFxdlp4NEpBRk15MXhKTmRsVUlaQ2Fia0ZaWkV3T2Y3OUdWWFVrRlU0N3VsUjMyUmdkekluYVRhNUpOWmJyJTJCR29wNkJ6NVBXS1NhZHdBJTNEJTNE"
+        },
+        {
+          "name": "_GESPSK-openx",
+          "value": "[\"openx\",\"eyJpIjoiZWRTSUh2U0lTZis2Y0xpdXR6bjluZz09In0=\",1771843325276,null,null,null,null,null,0]"
+        },
+        {
+          "name": "_GESPSK-id5-sync.com",
+          "value": "[\"id5-sync.com\",null,1771843325776,null,null,null,null,null,0,[106]]"
+        },
+        {
+          "name": "_GESPSK-esp.criteo.com",
+          "value": "[\"esp.criteo.com\",null,1771843324778,null,null,null,null,null,null,[100]]"
+        },
+        {
+          "name": "_GESPSK-rtbhouse",
+          "value": "[\"rtbhouse\",null,1771843324932,null,null,null,null,null,0,[106]]"
+        }
+      ]
+    }
+  ]
+}
