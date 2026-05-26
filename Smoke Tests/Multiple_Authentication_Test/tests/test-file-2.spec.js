@@ -9,12 +9,12 @@ test("auth - TF #2 - TC #1", async({page,browserName}) => {
     console.log("auth - TF #2 - TC #1");
     await expect(page.locator("#submit")).toHaveText("Log out");
     await page.waitForTimeout(timeout);
-    await page.screenshot({path:`./ss/TF2-TC1-${browserName}.png`});
+    await page.screenshot({path:`screenshots/TF2-TC1-${browserName}.png`});
 });
 
 test("auth - TF #2 - TC #2", async({page,browserName}) => {
     console.log("auth - TF #2 - TC #2");
     await expect(page.locator("#submit")).toHaveText("Log out");
     await page.waitForTimeout(timeout);
-    await page.screenshot({path:`./ss/TF2-TC2-${browserName}.png`});
+    await page.screenshot({path:`screenshots/TF2-TC2-${browserName}.png`});
 });

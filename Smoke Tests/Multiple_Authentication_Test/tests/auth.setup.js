@@ -18,3 +18,7 @@ setup('autanticate by UI', async ({page},testInfo) => { //nome del test
 
     await page.context().storageState({path: authFile}); //salvo lo stato di autenticazione in un file dichiarto all'inizio
 })
+
+//comando per eseguire il test di setup: npx playwright test setup --headed --workers 1
+// --headed esegue il test con l'interfaccia grafica (non in modalità headless)
+// --workers 1 esegue il test in un solo processo (utile per debug o quando si vogliono evitare problemi di concorrenza)

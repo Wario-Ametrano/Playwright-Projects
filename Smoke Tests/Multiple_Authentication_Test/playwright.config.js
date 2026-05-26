@@ -33,21 +33,22 @@ export default defineConfig({
     trace: 'on-first-retry',
   },
 
-  /* Configure projects for major browsers */
+  // creazione di progetti per eseguire i test in diversi contesti (browser, dispositivi, ecc.)
   projects: [
 
-    { // Progetto Setup per autenticazione
+    { // faccio partire un progetto chiamato setup, esegue solo i test che terminano con .setup.js e utilizza le credenziali dichiarate del progetto
       name: 'setup',
-      testMatch: /.*\.setup\.js/,
+      testMatch: /.*\.setup\.js/,//esegue solo i test che terminano con .setup.js
       use: { user:'Mariottide', password:'Test123!'},
     },
-  /*  {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'],user:'user1',env_var:process.env.ENVVAR, storageState:'.auth/user.json' }, //utilizzo lo stato di autenticazione salvato nel file
-      dependencies: ['setup',], //dipendenza dal progetto di setup
-    },
-
     {
+      //faccio partire i test in un progetto chiamato chromium, utilizzo le impostazioni predefinite per desktop chrome e carico lo stato di autenticazione salvato nel file auth/user.json
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'], storageState: 'auth/user.json' }, // utilizzo lo stato di autenticazione salvato nel file
+      dependencies: ['setup'], // dipendenza dal progetto di setup
+      //questo progetto esegui tutti i test della directory testDir: './tests', dichiarata sopra in export default defineConfig
+    },
+  /*  {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'],user:'user1',env_var:process.env.ENVVAR, storageState:'.auth/user.json' }, 
       dependencies: ['setup'],
