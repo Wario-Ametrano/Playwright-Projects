@@ -33,4 +33,6 @@ test("search TF#1 - #2", async ({ page, browserName }) => {
 //Comando per eseguire tutti i test in parallelo hedless: npx playwright test
 //Comando per eseguire tutti i test in parallelo headed: npx playwright test --headed
 
+// per utilizzare 4 worker cioè processi: npx playwright test --workers=4
+
 //Esegui solo i test del progetto Chromium dichiarati nel file config.js: npx playwright test --project=chromium --headed
