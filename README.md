@@ -1,4 +1,4 @@
- # Playwright Projects 🎭
+# Playwright Projects 🎭
 
 ## Project Overview 📌
 
